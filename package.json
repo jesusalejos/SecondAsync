@@ -1,12 +1,16 @@
 {
   "name": "curso-Asyncronus",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Asincronimo en JavaScript",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js"
   },
-  "keywords": [],
+  "keywords": ["callback","promises", "Async"],
   "author": "Jesus Alejos <jalejos6@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
