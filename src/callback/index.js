@@ -49,6 +49,4 @@ proof(decirNombre);
 //     },3000)
 // }
 
-
-
 // date(printDate);
